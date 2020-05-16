@@ -9,8 +9,10 @@
 
 .to-do-list-item h4 {
   padding-left: 25px;
-  padding-bottom: 5px;
   font-size: 24px;
+  margin: auto;
+  line-height: normal;
+  padding: 5px 0;
 }
 
 .to-do-list-item:hover {
@@ -19,7 +21,10 @@
 
 .complete-todo-item {
   float: right;
-  right: 20px;
+}
+
+.btn-small i {
+  font-size: 12px;
 }
 
 #todo-add-form {

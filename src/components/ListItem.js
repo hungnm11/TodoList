@@ -9,12 +9,13 @@ const ListItem = (props) => {
   };
   const { todoId, todo } = props;
   return (
-    <div key="toDoName" className="col s10 offset-s1 to-do-list-item black">
+    <div key="toDoName" className="col s10 offset-s1 to-do-list-item blue darken-1
+    ">
       <h4>
         {todo.title}
         <span
           onClick={() => completeClick(todoId)}
-          className="complete-todo-item waves-effect waves-light blue lighten-5 blue-text text-darken-4 btn"
+          className="complete-todo-item waves-effect waves-light blue lighten-5 blue-text text-darken-4 btn-small"
         >
           <i className="material-icons">Done</i>
         </span>
