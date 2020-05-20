@@ -45,7 +45,7 @@ const ListItem = (props) => {
           onChange={(e) => setTask(e.target.value)}
         />
       </Editable>
-      <h4>
+      {/* <h4>
         {todo.title}
         <span
           onClick={() => completeClick(todoId)}
@@ -53,7 +53,7 @@ const ListItem = (props) => {
         >
           <i className="material-icons">x</i>
         </span>
-      </h4>
+      </h4> */}
     </li>
   );
 };
